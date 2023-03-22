@@ -1,0 +1,1245 @@
+Id: 1
+Execution stack: 
+(Ref(int) v1|(int cnt|(New(v1, 2)|(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+Ref(int) v1
+(int cnt|(New(v1, 2)|(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+Ref(int) v1
+(int cnt|(New(v1, 2)|(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+(int cnt|(New(v1, 2)|(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))))))
+Symbol table: 
+v1 -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+(int cnt|(New(v1, 2)|(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))))))
+Symbol table: 
+v1 -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+int cnt
+(New(v1, 2)|(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))))))
+Symbol table: 
+v1 -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+int cnt
+(New(v1, 2)|(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))))))
+Symbol table: 
+v1 -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+(New(v1, 2)|(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))))))
+Symbol table: 
+cnt -> 0
+v1 -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+(New(v1, 2)|(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))))))
+Symbol table: 
+cnt -> 0
+v1 -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+New(v1, 2)
+(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))))
+Symbol table: 
+cnt -> 0
+v1 -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+New(v1, 2)
+(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))))
+Symbol table: 
+cnt -> 0
+v1 -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))))
+Symbol table: 
+cnt -> 0
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+(newSemaphore(cnt, ReadHeap(v1), 1)|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))))
+Symbol table: 
+cnt -> 0
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+newSemaphore(cnt, ReadHeap(v1), 1)
+(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))))
+Symbol table: 
+cnt -> 0
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+newSemaphore(cnt, ReadHeap(v1), 1)
+(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))))
+Symbol table: 
+cnt -> 0
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+
+Id: 1
+Execution stack: 
+(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 1
+Execution stack: 
+(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))|(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 1
+Execution stack: 
+Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))
+(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 1
+Execution stack: 
+Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))))
+(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 1
+Execution stack: 
+(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 2
+Execution stack: 
+(acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 1
+Execution stack: 
+(Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))|(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 2
+Execution stack: 
+(acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 1
+Execution stack: 
+Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))
+(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 2
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 1
+Execution stack: 
+Fork((acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))))
+(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 2
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 1
+Execution stack: 
+(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 2
+Execution stack: 
+(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 3
+Execution stack: 
+(acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt)))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 1
+Execution stack: 
+(acquire(cnt)|(Print(ReadHeap(v1) - 1)|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 2
+Execution stack: 
+(WriteHeap(v1, ReadHeap(v1) * 10)|(Print(ReadHeap(v1))|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 3
+Execution stack: 
+(acquire(cnt)|(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt)))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 1
+Execution stack: 
+acquire(cnt)
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 2
+Execution stack: 
+WriteHeap(v1, ReadHeap(v1) * 10)
+(Print(ReadHeap(v1))|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 1
+Execution stack: 
+acquire(cnt)
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 2
+Execution stack: 
+WriteHeap(v1, ReadHeap(v1) * 10)
+(Print(ReadHeap(v1))|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 1
+Execution stack: 
+acquire(cnt)
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 2
+Execution stack: 
+(Print(ReadHeap(v1))|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 1
+Execution stack: 
+acquire(cnt)
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 2
+Execution stack: 
+(Print(ReadHeap(v1))|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 1
+Execution stack: 
+acquire(cnt)
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 2
+Execution stack: 
+Print(ReadHeap(v1))
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 1
+Execution stack: 
+acquire(cnt)
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 2
+Execution stack: 
+Print(ReadHeap(v1))
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 1
+Execution stack: 
+acquire(cnt)
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 2
+Execution stack: 
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 1
+Execution stack: 
+acquire(cnt)
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 2
+Execution stack: 
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [2], 1)
+
+Id: 1
+Execution stack: 
+acquire(cnt)
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 2
+Execution stack: 
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 1
+Execution stack: 
+acquire(cnt)
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [], 1)
+
+Id: 1
+Execution stack: 
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 1
+Execution stack: 
+(Print(ReadHeap(v1) - 1)|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 1
+Execution stack: 
+Print(ReadHeap(v1) - 1)
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 1
+Execution stack: 
+Print(ReadHeap(v1) - 1)
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 1
+Execution stack: 
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 1
+Execution stack: 
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 3
+Execution stack: 
+acquire(cnt)
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [1], 1)
+
+Id: 1
+Execution stack: 
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+(WriteHeap(v1, ReadHeap(v1) * 10)|(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+WriteHeap(v1, ReadHeap(v1) * 10)
+(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+WriteHeap(v1, ReadHeap(v1) * 10)
+(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 20
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 200
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+(WriteHeap(v1, ReadHeap(v1) * 1)|(Print(ReadHeap(v1))|release(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 200
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+WriteHeap(v1, ReadHeap(v1) * 1)
+(Print(ReadHeap(v1))|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 200
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+WriteHeap(v1, ReadHeap(v1) * 1)
+(Print(ReadHeap(v1))|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 200
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+(Print(ReadHeap(v1))|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 200
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+(Print(ReadHeap(v1))|release(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 200
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+Print(ReadHeap(v1))
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 200
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+Print(ReadHeap(v1))
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+File table:
+Heap memory:
+1 -> 200
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+200
+File table:
+Heap memory:
+1 -> 200
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+release(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+200
+File table:
+Heap memory:
+1 -> 200
+Toy Semaphore table:
+1 -> (2, [3], 1)
+
+Id: 3
+Execution stack: 
+Symbol table: 
+cnt -> 1
+v1 -> (1, int)
+Output list: 
+20
+19
+200
+File table:
+Heap memory:
+1 -> 200
+Toy Semaphore table:
+1 -> (2, [], 1)
+
